@@ -7,7 +7,7 @@ body {
 #container{
   padding: 15px;
 }
-#textarea{
+.textarea{
   background: transparent;
   border: none;
   resize: none;
@@ -28,10 +28,10 @@ body {
   white-space: pre-wrap;
 }
 
-.time-block{
+/* .time-block{
   text-align: center;
   border-radius: 15px;
-}
+} */
 
 .row {
   white-space: pre-wrap;
@@ -39,28 +39,28 @@ body {
   border-top: 1px solid white;;
 }
 
-#hour {
+.hour {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
 }
 
-.past {
+#past {
   background-color: #d3d3d3;
   color: white;
 }
 
-.present {
+#present {
   background-color: #ff6961;
   color: white;
 }
 
-.future {
+#future {
   background-color: #77dd77;
   color: white;
 }
 
-#saveBtn {
+.saveBtn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
